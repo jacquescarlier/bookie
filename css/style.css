@@ -129,7 +129,9 @@ span{
 }
 
 /*section_filtres*/
-
+.filter{
+    display: flex;
+}
 .section-filtres{
     display: flex;
 }
@@ -384,6 +386,11 @@ span{
     box-sizing: border-box;
 }
 /** Filtres 1024px **/
+.filter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
 
 .section-filtres{
     display: flex;
