@@ -1,2 +1,1 @@
-# bookie
-site-bookie-excercice
+# booki-starter-pack
