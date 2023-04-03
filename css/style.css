@@ -155,8 +155,6 @@ span{
 
 .title-filters{
     line-height: 50px;
-    font-size: 17px;
-    margin-bottom: 15px;
     margin-right: 15px;
 }
 
@@ -402,15 +400,16 @@ span{
 }
 
 .footer ul{
-    margin-left: 0;
-    padding-left: 15px;
+   padding: 20px;
 }
 
 .footer ul li {
     list-style: none;
     margin-left: 0;
 }
-
+.footer p{
+    margin-top: 15px;
+}
 /* Medium devices (tablets, less/equal than 1024px) */
 
 @media (max-width: 1024px) {
@@ -753,15 +752,16 @@ body{
 
 /* Footer 768px */
 
-.footer{
+.footer {
     border-radius: 0;
     display: flex;
-    flex-direction: column;
-    padding-top: 30px; 
-    padding-left: 20px;
+    flex-direction: column; 
 }
-
+.footer ul{
+    padding: 30px;
+ }
 ul li {
+    margin: 0;
     text-align: left;
 }
  
