@@ -42,14 +42,14 @@ p{
 }
 
 a{
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 .main-container {
     max-width: 1440px;
-    padding: 0 50px;
     box-sizing: border-box;
+    padding: 0 50px;
 }
 
 /* header */
@@ -57,7 +57,7 @@ a{
     height: 19px;
     width: auto;
     position: relative;
-    top: 15px;
+    top: 24px;
 }
 
 .header a:hover {
@@ -65,22 +65,22 @@ a{
     color: var(--main-color);
     font-weight: 400;
     font-size: 16px; 
-   line-height: 16px;
+    line-height: 16px;
 }
 
 .header-right {
     display: flex;
     float: right;
     position: relative;
-    top: -5px;
+    top: 0;
 }
 
 .header-right a{
     font-size: 16px; 
     font-weight: 400;
-    margin-left: 50px;
+    margin-left: 35px;
     position: relative;
-    padding: 10px;
+    padding: 16px;
     text-align: center;
 } 
 
@@ -89,7 +89,7 @@ a{
 h1{
     font-size: 22px;
     font-weight: 700;
-    margin-top: 60px;
+    margin-top: 82px;
     margin-bottom: 8px;
 }
 
@@ -97,7 +97,6 @@ span{
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
-    margin-bottom: 35px;
 }
 
 /* Barre de recherche par ville */
@@ -122,8 +121,8 @@ span{
     border-right:none;
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 30px;
-    margin-top: 35px;
+    margin-bottom: 38px;
+    margin-top: 38px;
     padding: 14px; 
     text-align: center;
 }
@@ -186,6 +185,7 @@ span{
 .infos{
     display: flex;
     margin-left: 10px;
+    margin-bottom: 35px;
 }
 
 .infos .fa-solid{
@@ -207,14 +207,8 @@ span{
 
 .card{
     background-color: white;
+    border: none;
     border-radius: 20px;
-    padding: 5px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-}
-
-.card-activites {
-    background-color: none;
-    border-radius: 20px; 
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -269,7 +263,7 @@ span{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 33px;
+    margin-top: 30px;
 }
 
 /* Hébergements */
@@ -355,8 +349,8 @@ span{
 
 .activites section {
     border-radius: 20px;
-    padding: 30px;
     box-sizing: border-box;
+    padding: 30px; 
 }
 
 .marseille-cards{
@@ -365,14 +359,16 @@ span{
     justify-content: space-between;
 }
 
-.marseille-cards .card-activites{/*
-    margin: 0;
-    padding: 0;*/
+.marseille-cards .card-activites{
     width: 22%;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
     display: flex;
+    filter : drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     margin-top: 33px;
-    border: 2px solid var(--main-bg-color);
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    
+    
 }
 
 .marseille-cards img {
@@ -392,10 +388,10 @@ span{
 /* Footer */
 
 .footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     background: var(--main-bg-color);
     border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: 20px; 
 }
 
@@ -416,9 +412,9 @@ span{
 /* header */
 
 .main-container {
+    box-sizing: border-box;
     max-width: 1024px;
     padding: 0 20px;
-    box-sizing: border-box;
 }
 
 /** Filtres 1024px **/
@@ -463,13 +459,12 @@ span{
 }
 
 .activites .marseille-cards img {
-    margin: 0;
-    padding: 0;
-    aspect-ratio: auto;
     width: 100%;
     height: 200px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 }
@@ -490,9 +485,9 @@ body{
 
 .main-container {
     max-width: 767.98px;
-    padding: 0;
-    margin: O;
     box-sizing: border-box;
+    margin: O;
+    padding: 0;
 }
 
 .euro{
@@ -531,8 +526,8 @@ body{
 }
 
 .header a:hover {
-    border-top: none;
     border-bottom: 2px solid var(--main-color) ;
+    border-top: none;
     color: var(--main-color);  
 }
 
@@ -584,8 +579,8 @@ body{
     padding: 20px;
 }
 .title-filters{
-    text-align: left;
     margin-left: 10px;
+    text-align: left;
 }
 
 .buttons-filters{
@@ -611,9 +606,9 @@ body{
 }
 
 .infos{
-    text-align: left;
     padding: 20px;
     margin-bottom: 0;
+    text-align: left;
 }
 
 /* section hébergements and populaires 768px */
@@ -629,8 +624,8 @@ body{
 .hebergements-and-populaires section {
     background-color: white;
     border-radius: 0;
-    padding: 0px;
     box-sizing: border-box;
+    padding: 0px;
 }
 
 .populaires-title, .hebergements-title{
@@ -643,8 +638,8 @@ body{
 }
 
 .hebergements-and-populaires section + .populaires {
-    padding-top: 20px;
     background: var(--main-bg-color);
+    padding-top: 20px;
 }
 
 .populaires-cards, .hebergements-cards{
@@ -655,10 +650,10 @@ body{
 }
 
 .populaires-cards .card, .hebergements-cards .card{
-    margin-left: 10px;
-    margin-right: 20px;
     width: auto;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    margin-right: 20px;  
 }
 .populaires-cards .card-txt{
     margin-left: 15px;
@@ -674,29 +669,27 @@ body{
 }
 
 .populaires-cards .card {
-    text-align: left;
     margin-bottom: 30px;
+    text-align: left;
 }
 
 .populaires-cards .card img{
-    object-fit: cover ;
     height: max(30vw, 136px);*/
     height: 146px;
+    object-fit: cover ;
 }
 
 .hebergements-cards{
-    text-align: left;
     width: 100%;
+    text-align: left;
 }
 
 .hebergements-cards img {
-    object-fit: cover ;
-    height: max(30vw, 136px);
-    /*height: 136px;*/
     width: 100%;
-    aspect-ratio: 16 / 9;
+    height: max(30vw, 136px);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    object-fit: cover ;
 }
 
 .hebergements .hebergements-title{
@@ -727,22 +720,22 @@ body{
 }
 
 .marseille-cards{
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 0;
     margin-right: 0;
-    width: 100%;
 }
 
 .marseille-cards .card-activites {
+    width: 100%; 
     border: 2px solid var(--main-bg-color);
     display: flex;
+    flex-flow: row wrap;
     filter: drop-shadow(1px 3px 15px rgba(25, 25, 25, 0.1));
-    flex-direction: row;
-    flex-wrap: wrap;
     margin-top: 33px;
-    width: 100%; 
+    
 }
 
 .marseille-cards .card-txt{
@@ -756,6 +749,7 @@ body{
     border-radius: 0;
     display: flex;
     flex-direction: column; 
+    margin-top: 65px;
 }
 .footer ul{
     padding: 30px;
