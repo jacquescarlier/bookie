@@ -103,6 +103,9 @@ body {
 }
 
 /* Barre de recherche par ville */
+.search-town {
+
+}
 
 .search-label, .search-input, .btn-search {
     height: 50px;
@@ -520,8 +523,16 @@ h4{
 .btn-search .fa-solid {
     display: block;
 }
-.search.input{
-    height: 50px;
+
+.form-research{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.search-input{
+    width: 100%;
     max-width: 277px;
 }
 .btn-search {
