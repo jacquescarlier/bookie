@@ -104,10 +104,6 @@ body {
 
 /* Barre de recherche par ville */
 
-.search-mobile {
-    display: none;
-}
-
 .search-label, .search-input, .btn-search {
     height: 50px;
     font-size: 18px;
@@ -142,6 +138,9 @@ body {
     color: white;
     cursor: pointer;
     padding: 14px 16px;  
+}
+.btn-search .fa-solid{
+    display: none;
 }
 
 /*section_filtres*/
@@ -198,11 +197,6 @@ body {
     padding: 0;
 }
 
-.section-title {
-    margin: 0;
-    font-size: 22px;
-}
-
 .card {
     background-color: white;
     border: none;
@@ -219,10 +213,6 @@ body {
     margin-top: 10px;
     margin-bottom: 4px;
 }
-/*
-.card-subtitle {
-    margin: 0;
-}*/
 
 .euro {
     font-weight: 700;
@@ -523,40 +513,31 @@ h4{
 
 /* bouton de recherche 768px */
 
-.search-desktop{
-    display:none;
+.btn-search span{
+    display: none; 
 }
 
-.search-mobile {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  
+.btn-search .fa-solid {
+    display: block;
 }
-.search-mobile .form-research {
-    display: flex;
-}
-.search-label .fa-solid {
-    padding: 16px 15px;
-    line-height: 18px;
-}
-.search-input {
-    height: 51px;
-   
-}
+
 .btn-search {
     border-radius: 15px;
     height: 51px;
     margin-left: -10px; 
     max-width: 50px; 
 }
+
 .btn-search .fa-solid {
     color: white;
 }
+
 /* filtres 768px */
 .filter {
-    padding: 20px 20px 0 0;
+    padding: 20px 0px 0 0px;
     padding-bottom: 0;
 }
+
 .title-filters {
     margin-left: 20px;
     text-align: left;
@@ -573,13 +554,12 @@ h4{
     display: flex;
     flex-direction: row;   
     justify-content: space-between;
-    gap: 10px;
-    margin: 15px;
+    gap: 0px;
+    margin: 20px;
 }
 
 .btn-filter {
     width: 100%;
-    font-size: 4vw;
     font-weight: 700;
     margin-bottom: 10px;
 }
