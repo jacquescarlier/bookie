@@ -94,11 +94,9 @@ body {
     text-align: center;
 } 
 
-.header a:hover {
+.header-right a:hover {
     border-top: 2px solid var(--main-color) ;
     color: var(--main-color);
-    font-weight: 400;
-    font-size: 16px; 
     line-height: 16px;
 }
 
@@ -118,8 +116,7 @@ body {
 .search-label .fa-solid {
     background: var(--main-bg-color);
     border: 1px solid var(--main-bg-color);
-    border-top-left-radius: 15px;
-    border-bottom-left-radius:15px ;
+    border-radius: 15px 0px 0px 15px;
     color: black;
     padding: 15.5px 15px;
 }
@@ -136,8 +133,7 @@ body {
     max-width: 132px;
     background: var(--main-color);
     border: 1px solid var(--main-color);
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 0px 15px 15px 0px;
     color: white;
     cursor: pointer;
     padding: 14px 16px;  
@@ -279,8 +275,7 @@ body {
 .hebergements-cards img {
     width: 100%;
     height: 136px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .hebergements-cards .card-content {
@@ -314,8 +309,7 @@ body {
 .populaires-cards img {
     width: 33%;
     height: 136px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px 0px 0px 20px;
 }
 
 .populaires-cards .card-content {
@@ -361,8 +355,7 @@ body {
 .marseille-cards img {
     width: 100%;
     height: 380px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .marseille-cards .card-title {
@@ -393,7 +386,7 @@ body {
 }
 /* Medium devices (tablets, less/equal than 1024px) */
 
-@media (max-width: 1024px) {
+@media (max-width: 1023.98px) {
 /* header */
 
 .main-container {
@@ -446,8 +439,6 @@ body {
 .activites .marseille-cards img {
     width: 100%;
     height: 200px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
     margin: 0;
     padding: 0;
 }
@@ -527,6 +518,7 @@ h4{
 .form-research{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-left: 20px;
     margin-right: 20px;
 
@@ -576,6 +568,7 @@ h4{
     width: 100%;
     font-weight: 700;
     margin-bottom: 10px;
+    font-size: 14px;
 }
 
 .infos {
