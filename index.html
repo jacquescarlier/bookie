@@ -34,25 +34,23 @@
                 <span>En plein centre ville ou en pleine nature</span>
                 <!--Bouton de Recherche-->
                 <form action="#" class="form-research">
-                    <label class="search-label"> <i class="fa fa-solid fa-location-dot"></i></label><input type="text" name="search" class="search-input" placeholder="Marseille, France"><button type="submit" class="btn-search"><span>Rechercher</span><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <label class="search-label"> <i class="fa fa-solid fa-location-dot"></i></label><input type="text" name="search"  id="informations" class="search-input" placeholder="Marseille, France"><button type="submit" class="btn-search"><span>Rechercher</span><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>  
                 <!--partie filtres-->
                 <div class="filter">
-                    <div class="title-filters">
-                        <h3>Filtres</h3>
-                    </div>
+                    <h3 class="title-filters" >Filtres</h3>
                     <div class="buttons-filters">
-                        <div class="filters-part 1">
+                        <div class="filters-part">
                             <button class="btn-filter"><i class="fa fa-solid fa-money-bill-wave-alt"></i>Économique</button>
                             <button class="btn-filter"><i class="fa fa-solid fa-person"></i>Familial</button>
                         </div>
-                        <div class="filters-part 2">
+                        <div class="filters-part">
                             <button class="btn-filter"><i class="fa fa-solid fa-heart"></i>Romantique</button>
                             <button class="btn-filter"><i class="fa fa-solid fa-fire"></i>Nos pépites</button>
                         </div>
                     </div>
                 </div>
-                <span class="infos"><i class="fa-sharp fa-solid fa-circle-info" aria-hidden="true"></i>Plus de 500 logements disponibles dans cette ville</span>
+                <span class="infos"><label for="informations"><i class="fa-sharp fa-solid fa-circle-info" aria-hidden="true"></i></label>Plus de 500 logements disponibles dans cette ville</span>
             </section>
             <div class="hebergements-and-populaires">
                 <!--Section hébergements-->
@@ -241,7 +239,7 @@
             </div>
             <!--Activités-->
             <div class="activites">
-                <section class="marseille" id="activites-marseille">
+                <aside class="marseille" id="activites-marseille">
                     <div class="marseille-title">
                         <h2>Activités à Marseille</h2>
                     </div>
@@ -287,7 +285,7 @@
                             </a>
                         </article>
                     </div>
-                </section>
+                </aside>
             </div>
         </main>
         <footer>
@@ -295,23 +293,23 @@
                 <div class="apropos">
                     <ul>
                         <li><a href=""><h3>À propos</h3></a></li>
-                        <li><a href=""><p>Fonctionnement du site</p></a></li>
-                        <li><a href=""><p>Conditions génèrales</p></a></li>
-                        <li><a href=""><p>Données et confidentialité</p></a></li>
+                        <li><a href=""><span>Fonctionnement du site</span></a></li>
+                        <li><a href=""><span>Conditions génèrales</span></a></li>
+                        <li><a href=""><span>Données et confidentialité</span></a></li>
                     </ul>
                 </div>
                 <div class="noshebergements">
                     <ul>
                         <li><a href=""><h3>Nos hébergements</h3></a></li>
-                        <li><a href=""><p>Charte qualité</p></a></li>
-                        <li><a href=""><p>Proposer votre hôtel</p></a></li>
+                        <li><a href=""><span>Charte qualité</span></a></li>
+                        <li><a href=""><span>Proposer votre hôtel</span></a></li>
                     </ul>
                 </div>
                 <div class="assistance">
                     <ul>
                         <li><a href=""><h3>Assistance</h3></a></li>
-                        <li><a href=""><p>Centre d'aide</p></a></li>
-                        <li><a href=""><p>Nous contacter</p></a></li>
+                        <li><a href=""><span>Centre d'aide</span></a></li>
+                        <li><a href=""><span>Nous contacter</span></a></li>
                     </ul>
                 </div>
             </div>
