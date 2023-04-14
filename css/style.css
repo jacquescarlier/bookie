@@ -76,6 +76,7 @@ body {
     width: auto;
     position: relative;
     top: 24px;
+    right: 20px;
 }
 
 .header-right {
@@ -101,9 +102,6 @@ body {
 }
 
 /* Barre de recherche par ville */
-.search-town {
-
-}
 
 .search-label, .search-input, .btn-search {
     height: 50px;
@@ -330,7 +328,7 @@ body {
     display: flex;
 }
 
-.activites section {
+.activites aside {
     border-radius: 20px;
     box-sizing: border-box;
     padding: 30px; 
@@ -380,19 +378,25 @@ body {
 .footer ul li {
     list-style: none;
     margin-left: 0;
+    margin-bottom: 15px;
 }
-.footer p {
-    margin-top: 15px;
-}
+
 /* Medium devices (tablets, less/equal than 1024px) */
 
 @media (max-width: 1023.98px) {
-/* header */
 
 .main-container {
     box-sizing: border-box;
     max-width: 1024px;
     padding: 0 20px;
+}
+
+/* header */
+
+.header img {
+   position: relative;
+   right: 0px;
+    
 }
 
 /** Filtres 1024px **/
@@ -618,8 +622,8 @@ h4{
 
 .populaires-cards .card, .hebergements-cards .card {
     width: auto;
-    margin: 0px;
-    margin: 7.5px;
+    padding:  5px 0;
+    margin: 7.5px 0px;
 }
 .populaires-cards .card-txt {
     margin-left: 15px;
@@ -651,8 +655,8 @@ h4{
 
 .hebergements-cards img {
     width: 100%;
-    height: max(30vw, 124px);
-    object-fit: fill ;
+    height: max(10em, 124px);
+    object-fit: cover ;
     
 }
 
@@ -662,12 +666,16 @@ h4{
 .hebergements-cards h3 {
     padding:0px;
 }
+.hebergements h4{
+    margin-left: 0px;
+}
 
 /* Activités à Marseille 768px */
 
-.activites section {
+.activites aside {
     width: 100%;
     padding-top: 65px;
+    padding-left: 30px;
 }
 
 .marseille-title h2 {
@@ -675,6 +683,7 @@ h4{
     font-weight: 700;
     text-align: left;
     margin-bottom: 30px;
+    margin-left: 10px;
 }
 
 .marseille-cards {
@@ -708,7 +717,8 @@ h4{
     margin-top: 65px;
 }
 .footer ul {
-    padding: 30px;
+    margin: 0px;
+    padding: 40px;
  }
 ul li {
     margin: 0;
