@@ -116,7 +116,7 @@ body {
     border: 1px solid var(--main-bg-color);
     border-radius: 15px 0px 0px 15px;
     color: black;
-    padding: 15.5px 15px;
+    padding: 15px 15px;
 }
 
 .search-input {
@@ -473,7 +473,7 @@ body{
 }
 
 .main-container {
-    max-width: 767.98px;
+    max-width: 767px;
     box-sizing: border-box;
     padding: 0;
 }
@@ -631,7 +631,7 @@ h4{
 .populaires-cards .card, .hebergements-cards .card {
     width: auto;
     padding:  5px 5px;
-    margin: 7.5px 0px;
+    margin: 7px 0px;
 }
 .populaires-cards .card-txt {
     margin-left: 15px;
@@ -708,7 +708,7 @@ h4{
     border: 2px solid var(--main-bg-color);
     display: flex;
     flex-flow: row wrap;
-    margin: 7.5px;
+    margin: 7px;
 }
 
 .marseille-cards .card-txt {
